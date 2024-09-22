@@ -1,0 +1,59 @@
+/* Type styles */
+:root {
+    --button-color: #569D48;
+    --default-input-border-color: #e5e7eb;
+}
+
+@font-face {
+    font-family: logo-font;
+    src: url('fonts/Norse-Bold.otf');
+}
+
+body {
+    background: white;
+    font-family: 'Roboto'; 
+    display: flex;
+    flex-direction: row;
+    margin:0;
+}
+
+a {
+    color: inherit;
+}
+
+.left {
+    height: 100vh;
+    width: 40vw;
+    background-image: url('images/halie-west-25xggax4bSA-unsplash.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.logo {
+    position: relative;
+    top: 20%;
+    font-family: logo-font;
+    font-size: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+    height: 12vh;
+}
+
+#logoviking {
+    width: 8vh;
+}
+
+.credit {
+    position: relative;
+    text-align: center;
+    top: 85%;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+button {
+    background-color: var(--button-color);
+}
