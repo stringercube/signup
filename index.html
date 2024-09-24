@@ -18,13 +18,49 @@
     </div>
     <div class="main">
         <div class="intro">
-
+            <p>Please join this counterfeit service to join Odin coder vikings! This is your last change to
+                join free a program that is... free
+            </p>
+            <p>Join now, you know what you gotta do boy!</p>
         </div>
-        <div class="signup">
-
-        </div>
+        <form class="signup" action="/dbpath" method="post">
+            <fieldset class="inputs_user">
+                <legend>Let's do this</legend>
+                <div class="input_list">
+                    <ul>
+                        <div>
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" name="first_name" id="first_name">
+                        </div>
+                        <div>
+                            <label for="user_email">EMAIL</label>
+                            <input type="email" name="user_email" id="user_email" placeholder="test@gmail.com">    
+                        </div>
+                        <div>
+                            <label for="user_pwd">PASSWORD</label>
+                            <input type="password" name="user_pwd" id="user_pwd">
+                        </div>
+                    </ul>
+                    <ul>
+                        <div>
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" name="last_name" id="last_name">
+                        </div>
+                        <div>
+                            <label for="user_tel">PHONE NUMBER</label>
+                            <input type="tel" name="user_tel" id="user_tel" placeholder="(555) 555-1234">
+                        </div>
+                        <div>
+                            <label for="user_pwd_confirmation">CONFIRM PASSWORD</label>
+                            <input type="password" name="user_pwd" id="user_pwd_confirmation">
+                        </div>
+                    </ul>
+                </div>
+            </fieldset>
+        </form>
         <div class="create">
-            <button type="submit">Create account</button>
+            <button id="sub_btn" type="submit">Create Account</button>
+            <p>If you have already an account <a href="https://www.theodinproject.com/dashboard">Log in</a></p>
         </div>
     </div>
 </body>
